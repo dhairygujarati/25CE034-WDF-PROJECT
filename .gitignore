@@ -1,0 +1,16 @@
+# Dependencies and environment
+node_modules/
+vendor/
+.env
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Server logs and temporary files
+*.log
+error_log
