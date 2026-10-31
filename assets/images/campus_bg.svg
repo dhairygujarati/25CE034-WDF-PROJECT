@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="40%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f2b48"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.1"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.75" stroke-opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle Grid Pattern -->
+  <rect width="100%" height="100%" fill="url(#grid)"/>
+
+  <!-- Geometric Architectural / Campus Silhouettes -->
+  <!-- Glowing light spheres in background -->
+  <circle cx="250" cy="200" r="350" fill="#2563eb" opacity="0.18" filter="blur(80px)"/>
+  <circle cx="1650" cy="850" r="450" fill="#06b6d4" opacity="0.15" filter="blur(90px)"/>
+  <circle cx="960" cy="540" r="300" fill="#4f46e5" opacity="0.12" filter="blur(70px)"/>
+
+  <!-- University Dome & Tower Architectural Silhouette in the horizon -->
+  <path d="M0 1080 L0 880 L180 880 L180 820 L240 760 L300 820 L300 880 L480 880 L480 720 L520 720 L520 640 L560 600 L600 640 L600 720 L640 720 L640 880 L820 880 L820 840 L960 740 L1100 840 L1100 880 L1320 880 L1320 700 L1380 660 L1440 700 L1440 880 L1600 880 L1600 830 L1680 770 L1760 830 L1760 880 L1920 880 L1920 1080 Z" fill="#0b1322" opacity="0.85"/>
+
+  <!-- Foreground decorative angled polygon -->
+  <polygon points="0,1080 1920,1080 1920,960 0,1020" fill="#090d16"/>
+  <polygon points="0,1080 1920,1080 1920,1020 0,1060" fill="#05080f"/>
+
+  <!-- Subtle connecting lines and nodes representing academic network -->
+  <g stroke="#38bdf8" stroke-width="1.5" opacity="0.25">
+    <line x1="200" y1="300" x2="450" y2="240"/>
+    <line x1="450" y1="240" x2="680" y2="380"/>
+    <line x1="680" y1="380" x2="900" y2="280"/>
+    <line x1="900" y1="280" x2="1200" y2="350"/>
+    <line x1="1200" y1="350" x2="1500" y2="220"/>
+    <line x1="1500" y1="220" x2="1750" y2="360"/>
+  </g>
+  <g fill="#38bdf8" opacity="0.4">
+    <circle cx="200" cy="300" r="5"/>
+    <circle cx="450" cy="240" r="6"/>
+    <circle cx="680" cy="380" r="4"/>
+    <circle cx="900" cy="280" r="7"/>
+    <circle cx="1200" cy="350" r="5"/>
+    <circle cx="1500" cy="220" r="6"/>
+    <circle cx="1750" cy="360" r="5"/>
+  </g>
+</svg>

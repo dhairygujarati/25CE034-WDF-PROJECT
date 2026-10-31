@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "code": "CS-301",
+    "title": "Advanced Web Architectures & Cloud Services",
+    "department": "Computer Science",
+    "credits": 4,
+    "semester": 5,
+    "description": "Comprehensive exploration of distributed web architectures, REST APIs, microservices, containerization, and modern security patterns.",
+    "level": "Upper Division",
+    "tags": ["Full-Stack", "APIs", "Cloud"]
+  },
+  {
+    "id": 2,
+    "code": "CS-205",
+    "title": "Relational Databases & SQL Optimization",
+    "department": "Computer Science",
+    "credits": 3,
+    "semester": 3,
+    "description": "Entity-Relationship modeling, relational algebra, SQL optimization, transactional integrity (ACID), indexing strategies, and normalization.",
+    "level": "Core",
+    "tags": ["Databases", "SQL", "Schema Design"]
+  },
+  {
+    "id": 3,
+    "code": "DS-401",
+    "title": "Applied Machine Learning & Deep Learning",
+    "department": "Data Science",
+    "credits": 4,
+    "semester": 7,
+    "description": "Hands-on machine learning workflows: feature engineering, classification, neural networks, computer vision, and responsible AI governance.",
+    "level": "Advanced",
+    "tags": ["Machine Learning", "Python", "Neural Networks"]
+  },
+  {
+    "id": 4,
+    "code": "IT-210",
+    "title": "Network Security & Applied Cryptography",
+    "department": "Information Technology",
+    "credits": 3,
+    "semester": 4,
+    "description": "Principles of computer security, asymmetric/symmetric cryptography, public key infrastructure, TLS, and defensive incident response.",
+    "level": "Core",
+    "tags": ["Security", "Networking", "Cryptography"]
+  },
+  {
+    "id": 5,
+    "code": "EC-302",
+    "title": "Embedded Systems & IoT Interfaces",
+    "department": "Electronics Engineering",
+    "credits": 4,
+    "semester": 6,
+    "description": "Microcontroller interfacing, real-time operating systems, sensor integration, low-power wireless communication protocols (MQTT, BLE).",
+    "level": "Upper Division",
+    "tags": ["Hardware", "IoT", "Microcontrollers"]
+  },
+  {
+    "id": 6,
+    "code": "ME-105",
+    "title": "Engineering Thermodynamics & Energy Systems",
+    "department": "Mechanical Engineering",
+    "credits": 3,
+    "semester": 2,
+    "description": "First and second laws of thermodynamics, closed and open system cycles, renewable energy transformations, and heat transfer basics.",
+    "level": "Foundational",
+    "tags": ["Thermodynamics", "Renewable Energy", "Physics"]
+  },
+  {
+    "id": 7,
+    "code": "DS-202",
+    "title": "Statistical Inference & Exploratory Data Analysis",
+    "department": "Data Science",
+    "credits": 3,
+    "semester": 3,
+    "description": "Probability distributions, hypothesis testing, ANOVA, Bayesian statistics, data visualization, and exploratory modeling with R and Python.",
+    "level": "Core",
+    "tags": ["Statistics", "EDA", "Data Visualization"]
+  },
+  {
+    "id": 8,
+    "code": "CS-415",
+    "title": "Human-Computer Interaction & Accessibility",
+    "department": "Computer Science",
+    "credits": 3,
+    "semester": 7,
+    "description": "User-centered design principles, WCAG 2.1 accessibility standards, assistive technologies, cognitive walkthroughs, and usability evaluation.",
+    "level": "Upper Division",
+    "tags": ["UX/UI", "Accessibility", "WCAG"]
+  }
+]

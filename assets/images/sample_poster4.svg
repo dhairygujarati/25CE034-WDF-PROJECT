@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p4Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#831843"/>
+      <stop offset="100%" stop-color="#be185d"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#p4Grad)"/>
+  <rect x="40" y="40" width="100" height="26" rx="13" fill="#f472b6" opacity="0.2"/>
+  <text x="60" y="58" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#fbcfe8">CULTURAL</text>
+  <text x="40" y="115" font-family="system-ui, sans-serif" font-size="28" font-weight="900" fill="#ffffff">CULTURAL FIESTA '26</text>
+  <text x="40" y="145" font-family="system-ui, sans-serif" font-size="16" fill="#fce7f3">Music, Dance, Drama &amp; Food Carnival</text>
+  
+  <rect x="40" y="180" width="520" height="1" fill="#9d174d"/>
+  <g fill="#fff1f2" font-family="system-ui, sans-serif" font-size="14">
+    <text x="40" y="220">📅 Dec 18, 2026 | 05:00 PM</text>
+    <text x="40" y="250">📍 Open Air Amphitheatre</text>
+    <text x="40" y="280">🎉 Open to all students &amp; faculty</text>
+  </g>
+</svg>
